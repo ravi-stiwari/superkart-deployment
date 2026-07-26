@@ -3,8 +3,8 @@ import requests
 import pandas as pd
 import os
 
-# Backend API URL - set as an environment variable in the Codespace, or edit the default below
-BACKEND_URL = os.environ.get("BACKEND_URL", "http://localhost:7860")
+# Backend API URL (the deployed Flask API on GitHub Codespaces)
+BACKEND_URL = os.environ.get("BACKEND_URL", "https://shiny-space-goggles-q7r4xv6w5xg2467r-7860.app.github.dev")
 
 st.set_page_config(page_title="SuperKart Sales Predictor", page_icon="cart", layout="wide")
 
